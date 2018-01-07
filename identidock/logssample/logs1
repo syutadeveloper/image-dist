@@ -1,0 +1,34 @@
+Attaching to identidock_identidock_1
+[36midentidock_1  |[0m Running Production Server
+[36midentidock_1  |[0m *** Starting uWSGI 2.0.8 (64bit) on [Sat Jan  6 15:32:47 2018] ***
+[36midentidock_1  |[0m compiled with version: 4.9.2 on 06 January 2018 09:15:59
+[36midentidock_1  |[0m os: Linux-4.4.92-31-default #1 SMP Sun Oct 22 06:56:24 UTC 2017 (1d80e8a)
+[36midentidock_1  |[0m nodename: 33da8b2bad28
+[36midentidock_1  |[0m machine: x86_64
+[36midentidock_1  |[0m clock source: unix
+[36midentidock_1  |[0m pcre jit disabled
+[36midentidock_1  |[0m detected number of CPU cores: 4
+[36midentidock_1  |[0m current working directory: /app
+[36midentidock_1  |[0m detected binary path: /usr/local/bin/uwsgi
+[36midentidock_1  |[0m your processes number limit is 1048576
+[36midentidock_1  |[0m your memory page size is 4096 bytes
+[36midentidock_1  |[0m detected max file descriptor number: 1048576
+[36midentidock_1  |[0m lock engine: pthread robust mutexes
+[36midentidock_1  |[0m thunder lock: disabled (you can enable it with --thunder-lock)
+[36midentidock_1  |[0m uWSGI http bound on 0.0.0.0:9090 fd 4
+[36midentidock_1  |[0m uwsgi socket 0 bound to TCP address 127.0.0.1:38588 (port auto-assigned) fd 3
+[36midentidock_1  |[0m Python version: 3.4.7 (default, Dec 12 2017, 16:46:28)  [GCC 4.9.2]
+[36midentidock_1  |[0m *** Python threads support is disabled. You can enable it with --enable-threads ***
+[36midentidock_1  |[0m Python main interpreter initialized at 0xd08640
+[36midentidock_1  |[0m your server socket listen backlog is limited to 100 connections
+[36midentidock_1  |[0m your mercy for graceful operations on workers is 60 seconds
+[36midentidock_1  |[0m mapped 145536 bytes (142 KB) for 1 cores
+[36midentidock_1  |[0m *** Operational MODE: single process ***
+[36midentidock_1  |[0m WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd08640 pid: 1 (default app)
+[36midentidock_1  |[0m *** uWSGI is running in multiple interpreter mode ***
+[36midentidock_1  |[0m spawned uWSGI master process (pid: 1)
+[36midentidock_1  |[0m spawned uWSGI worker 1 (pid: 8, cores: 1)
+[36midentidock_1  |[0m *** Stats server enabled on 0.0.0.0:9191 fd: 13 ***
+[36midentidock_1  |[0m spawned uWSGI http 1 (pid: 9)
+[36midentidock_1  |[0m [pid: 8|app: 0|req: 1/1] 172.17.0.1 () {28 vars in 294 bytes} [Sat Jan  6 15:32:59 2018] GET / => generated 15 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[36midentidock_1  |[0m [pid: 8|app: 0|req: 2/2] 172.17.0.1 () {28 vars in 295 bytes} [Sat Jan  6 15:39:01 2018] GET / => generated 15 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
